@@ -5,7 +5,7 @@ import Statistics from './components/Statistics';
 import BarChart from './components/BarChart';
 import PieChart from './components/PieChart';
 
-const API_BASE_URL = 'http://localhost:5000/api'; // Update this to match your backend URL
+const API_BASE_URL = 'https://roxiler-backend-91qq.onrender.com/api'; // Update this to match your backend URL
 
 const App = () => {
   const [selectedMonth, setSelectedMonth] = useState(3); // March by default
