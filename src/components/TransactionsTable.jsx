@@ -83,7 +83,7 @@ const TransactionsTable = ({ selectedMonth, selectedYear }) => {
                   <td className="p-2 border">${transaction.price.toFixed(2)}</td>
                   <td className="p-2 border">{transaction.category}</td>
                   <td className="p-2 border">{transaction.sold ? 'Yes' : 'No'}</td>
-                  <td className="p-2 border"><img src={transaction.image} alt="" /></td>
+                  <td className="p-2 border max-w-96"><img src={transaction.image} alt="" /></td>
                 </tr>
               ))}
             </tbody>
